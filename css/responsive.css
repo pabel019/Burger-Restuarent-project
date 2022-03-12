@@ -1,0 +1,659 @@
+    /* most low level resulation like galaxy fold */
+    
+    @media (min-widht: 279px) and (max-widht: 319px) {
+        .header .main-menu .logo {
+            text-align: center;
+            margin: 0px 0px 0px 20px;
+        }
+        .header .main-menu .logo img {
+            width: 155px;
+            height: 40px;
+        }
+        .header .main-menu .adresss {
+            justify-content: center;
+        }
+        .header .adresss p {
+            font-size: 16px;
+            line-height: 26px;
+        }
+        .header .navbar-light .navbar-toggler-icon {
+            transform: translate(320px, -108px);
+            border: none;
+            width: 45px;
+        }
+        .header .navbar-light .navbar-toggler {
+            border: none;
+        }
+        .header .navbar-toggler:focus {
+            box-shadow: none;
+        }
+        .header .main-menu .navbar-light .navbar-nav .nav-link {
+            font-size: 20px;
+            line-height: 30px;
+            padding: 0px;
+            margin: 0px 0px 10px;
+            text-align: center;
+        }
+        .header .main-menu .navbar-light .navbar-nav .nav-link.active {
+            font-size: 20px;
+            line-height: 30px;
+            padding: 0px;
+            margin: 0px 0px 10px;
+        }
+        .header .banner {
+            padding: 30px 0px 0px;
+        }
+        .header .banner p {
+            width: 100%;
+            text-align: center;
+        }
+        .header .banner h1 {
+            font-size: 70px;
+            line-height: 80px;
+            text-align: center;
+            margin: 30px 0px 0px;
+        }
+        .header .banner h3 {
+            font-size: 70px;
+            line-height: 80px;
+            text-align: center;
+            margin: 10px 0px 0px 0px;
+        }
+        .header .banner img {
+            width: 400px;
+            height: 400px;
+            text-align: center;
+            margin-top: 20px;
+            margin-left: -115px;
+        }
+        .header .banner .banner-img {
+            justify-content: center;
+        }
+        .header .banner .logo-2 {
+            width: 90px;
+            height: 90px;
+            transform: translate(120px, 220px);
+        }
+        .header .banner h4 {
+            font-size: 24px;
+            line-height: 24px;
+            transform: translate(35px, 265px);
+        }
+        .feature {
+            padding: 60px 0px;
+        }
+        .feature .left-img {
+            margin: 0px 0px 20px;
+        }
+        .feature .left-img h3 {
+            padding: 0px 0px 140px;
+        }
+        .feature .right-img .up-part {
+            margin: 0px 0px 20px;
+        }
+        .service {
+            padding: 30px 0px;
+        }
+        .service .title h2 {
+            font-size: 35px;
+            line-height: 45px;
+            margin: 30px 0px 0px 0px;
+        }
+        .service .first-part .btn-danger {
+            margin: 0px 0px 25px;
+        }
+        .about-part {
+            padding: 40px 0px;
+        }
+        .about-part .owl-carousel .item .title {
+            text-align: center;
+            margin: 0px 0px 10px -40px;
+        }
+        .about-part .owl-carousel .item p {
+            width: 100%;
+        }
+        .about-part .owl-carousel .item .about-img {
+            width: 100%;
+            padding: 120px 0px;
+        }
+        .about-part .owl-theme .owl-dots {
+            text-align: center;
+        }
+        .contact .title {
+            padding: 30px 0px 0px;
+        }
+        .contact .main-form .btn-danger {
+            margin: 10px 0px 0px;
+            padding: 5px 70px;
+        }
+        .footer .footer-img .logo img {
+            width: 200px;
+            margin-left: 30px;
+        }
+        .footer .footer-img p {
+            width: 100%;
+            margin: 30px 0px 0px;
+            text-align: center;
+        }
+        .footer .footer-img .location-icon {
+            padding: 20px 0px 0px 0px;
+        }
+        .footer .footer-img .para {
+            margin: 50px 0px 0px;
+        }
+        .footer .footer-img .social-media {
+            text-align: center;
+            margin: 30px 0px 0px;
+        }
+        .footer .footer-img .social-media ul li i {
+            font-size: 18px;
+            line-height: 28px;
+            padding: 2px 8px;
+        }
+    }
+    /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+    
+    @media (min-width: 320px) and (max-width: 480px) {
+        .header .main-menu .logo {
+            text-align: center;
+        }
+        .header .main-menu .logo img {
+            width: 155px;
+            height: 40px;
+        }
+        .header .main-menu .adresss {
+            justify-content: center;
+        }
+        .header .adresss p {
+            font-size: 16px;
+            line-height: 26px;
+        }
+        .header .navbar-light .navbar-toggler-icon {
+            transform: translate(280px, -108px);
+            border: none;
+            width: 45px;
+        }
+        .header .navbar-light .navbar-toggler {
+            border: none;
+        }
+        .header .navbar-toggler:focus {
+            box-shadow: none;
+        }
+        .header .main-menu .navbar-light .navbar-nav .nav-link {
+            font-size: 20px;
+            line-height: 30px;
+            padding: 0px;
+            margin: 0px 0px 10px;
+            text-align: center;
+        }
+        .header .main-menu .navbar-light .navbar-nav .nav-link.active {
+            font-size: 20px;
+            line-height: 30px;
+            padding: 0px;
+            margin: 0px 0px 10px;
+        }
+        .header .banner {
+            padding: 30px 0px 0px;
+        }
+        .header .banner p {
+            width: 100%;
+            text-align: center;
+        }
+        .header .banner h1 {
+            font-size: 60px;
+            line-height: 70px;
+            text-align: center;
+            margin: 30px 0px 0px;
+        }
+        .header .banner h3 {
+            font-size: 70px;
+            line-height: 80px;
+            text-align: center;
+            margin: 10px 0px 0px 0px;
+        }
+        .header .banner img {
+            width: 380px;
+            height: 380px;
+            text-align: center;
+            margin-top: 20px;
+            margin-left: -115px;
+        }
+        .header .banner .banner-img {
+            justify-content: center;
+        }
+        .header .banner .logo-2 {
+            width: 90px;
+            height: 90px;
+            transform: translate(120px, 220px);
+        }
+        .header .banner h4 {
+            font-size: 24px;
+            line-height: 24px;
+            transform: translate(35px, 265px);
+        }
+        .feature {
+            padding: 60px 0px;
+        }
+        .feature .left-img {
+            margin: 0px 0px 20px;
+        }
+        .feature .left-img h3 {
+            padding: 0px 0px 140px;
+        }
+        .feature .right-img .up-part {
+            margin: 0px 0px 20px;
+        }
+        .service {
+            padding: 30px 0px;
+        }
+        .service .title h2 {
+            font-size: 35px;
+            line-height: 45px;
+            margin: 30px 0px 0px 0px;
+        }
+        .service .first-part .btn-danger {
+            margin: 0px 0px 25px;
+        }
+        .about-part {
+            padding: 40px 0px;
+        }
+        .about-part .owl-carousel .item .title {
+            text-align: center;
+            margin: 0px 0px 10px -20px;
+        }
+        .about-part .owl-carousel .item p {
+            width: 100%;
+        }
+        .about-part .owl-carousel .item .about-img {
+            width: 100%;
+            padding: 120px 0px;
+        }
+        .about-part .owl-theme .owl-dots {
+            text-align: center;
+        }
+        .contact .title {
+            padding: 30px 0px 0px;
+        }
+        .contact .main-form .btn-danger {
+            margin: 10px 0px 0px;
+            padding: 5px 70px;
+        }
+        .footer .footer-img .logo img {
+            width: 200px;
+            margin-left: 30px;
+        }
+        .footer .footer-img p {
+            width: 100%;
+            margin: 30px 0px 0px;
+            text-align: center;
+        }
+        .footer .footer-img .location-icon {
+            padding: 20px 0px 0px 0px;
+        }
+        .footer .footer-img .para {
+            margin: 50px 0px 0px;
+        }
+        .footer .footer-img .social-media {
+            text-align: center;
+            margin: 30px 0px 0px;
+        }
+        .footer .footer-img .social-media ul li i {
+            font-size: 18px;
+            line-height: 28px;
+            padding: 2px 8px;
+        }
+    }
+    /* CSS */
+    /* *******************************************
+*****************global css start*******************
+ */
+    /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+    
+    @media (min-width: 481px) and (max-width: 767px) {
+        .header .main-menu .logo {
+            text-align: center;
+        }
+        .header .main-menu .logo img {
+            width: 155px;
+            height: 40px;
+        }
+        .header .main-menu .adresss {
+            justify-content: center;
+        }
+        .header .adresss p {
+            font-size: 16px;
+            line-height: 26px;
+        }
+        .header .navbar-light .navbar-toggler-icon {
+            transform: translate(400px, -108px);
+            border: none;
+            width: 45px;
+        }
+        .header .navbar-light .navbar-toggler {
+            border: none;
+        }
+        .header .navbar-toggler:focus {
+            box-shadow: none;
+        }
+        .header .main-menu .navbar-light .navbar-nav .nav-link {
+            font-size: 20px;
+            line-height: 30px;
+            padding: 0px;
+            margin: 0px 0px 10px;
+            text-align: center;
+        }
+        .header .main-menu .navbar-light .navbar-nav .nav-link.active {
+            font-size: 20px;
+            line-height: 30px;
+            padding: 0px;
+            margin: 0px 0px 10px;
+        }
+        .header .banner {
+            padding: 30px 0px 0px;
+        }
+        .header .banner p {
+            width: 100%;
+            text-align: center;
+        }
+        .header .banner h1 {
+            font-size: 70px;
+            line-height: 80px;
+            text-align: center;
+            margin: 30px 0px 0px;
+        }
+        .header .banner h3 {
+            font-size: 70px;
+            line-height: 80px;
+            text-align: center;
+            margin: 10px 0px 0px 0px;
+        }
+        .header .banner img {
+            width: 550px;
+            height: 550px;
+            text-align: center;
+            margin-top: 20px;
+            margin-left: -115px;
+        }
+        .header .banner .banner-img {
+            justify-content: center;
+        }
+        .header .banner .logo-2 {
+            width: 90px;
+            height: 90px;
+            transform: translate(180px, 320px);
+        }
+        .header .banner h4 {
+            font-size: 24px;
+            line-height: 24px;
+            transform: translate(100px, 356px);
+        }
+        .feature {
+            padding: 60px 0px;
+        }
+        .feature .left-img {
+            margin: 0px 0px 20px;
+        }
+        .feature .left-img h3 {
+            padding: 0px 0px 190px;
+        }
+        .feature .right-img .up-part {
+            margin: 0px 0px 20px;
+        }
+        .feature .right-img .up-part-2 h2 {
+            padding: 0px 0px 100px;
+        }
+        .service {
+            padding: 30px 0px;
+        }
+        .service .title h2 {
+            font-size: 35px;
+            line-height: 45px;
+            margin: 30px 0px 0px 0px;
+        }
+        .service .first-part .btn-danger {
+            margin: 0px 0px 25px;
+        }
+        .about-part {
+            padding: 40px 0px;
+        }
+        .about-part .owl-carousel .item .title {
+            text-align: center;
+            margin: 0px 0px 10px -10px;
+        }
+        .about-part .owl-carousel .item p {
+            width: 100%;
+            text-align: justify;
+        }
+        .about-part .owl-carousel .item .about-img {
+            width: 100%;
+            padding: 120px 0px;
+        }
+        .about-part .owl-theme .owl-dots {
+            text-align: center;
+        }
+        .contact .title {
+            padding: 30px 0px 0px;
+        }
+        .contact .main-form .btn-danger {
+            margin: 10px 0px 0px;
+            padding: 5px 70px;
+        }
+        .footer .footer-img .logo img {
+            width: 200px;
+            margin-left: 80px;
+        }
+        .footer .footer-img p {
+            width: 100%;
+            margin: 30px 0px 0px;
+            text-align: justify;
+        }
+        .footer .footer-img .location-icon {
+            padding: 20px 0px 0px 0px;
+        }
+        .footer .footer-img .location-icon img {
+            margin: 25px 20px 0px 0px;
+        }
+        .footer .footer-img .email-icon img {
+            margin: 25px 20px 0px 0px;
+        }
+        .footer .footer-img .para {
+            margin: 50px 0px 0px;
+        }
+        .footer .footer-img .social-media {
+            text-align: center;
+            margin: 30px 0px 0px;
+        }
+        .footer .footer-img .social-media ul li i {
+            font-size: 18px;
+            line-height: 28px;
+            padding: 2px 8px;
+        }
+        .footer .footer-img .para {
+            text-align: center;
+            margin: 100px 0px 0px;
+        }
+        /* CSS */
+    }
+    /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .header .main-menu .logo {
+            text-align: center;
+        }
+        .header .main-menu .logo img {
+            width: 155px;
+            height: 40px;
+        }
+        .header .main-menu .adresss {
+            justify-content: center;
+        }
+        .header .adresss p {
+            font-size: 16px;
+            line-height: 26px;
+        }
+        .header .navbar-light .navbar-toggler-icon {
+            transform: translate(650px, -108px);
+            border: none;
+            width: 45px;
+        }
+        .header .navbar-light .navbar-toggler {
+            border: none;
+        }
+        .header .navbar-toggler:focus {
+            box-shadow: none;
+        }
+        .header .main-menu .navbar-light .navbar-nav .nav-link {
+            font-size: 20px;
+            line-height: 30px;
+            padding: 0px;
+            margin: 10px 0px 10px 20px;
+            text-align: center;
+        }
+        .header .main-menu .navbar-light .navbar-nav .nav-link.active {
+            font-size: 20px;
+            line-height: 30px;
+            padding: 0px;
+            margin: 10px 0px 10px;
+        }
+        .header .banner {
+            padding: 30px 0px 0px;
+        }
+        .header .banner p {
+            width: 70%;
+            text-align: center;
+            margin: 0px 0px 0px 80px;
+        }
+        .header .banner h1 {
+            font-size: 80px;
+            line-height: 80px;
+            text-align: center;
+            margin: 30px 0px 0px;
+        }
+        .header .banner h3 {
+            font-size: 75px;
+            line-height: 85px;
+            text-align: center;
+            margin: 10px 0px 0px 0px;
+        }
+        .header .banner img {
+            width: 650px;
+            height: 650px;
+            text-align: center;
+            margin-top: 20px;
+            margin-left: -115px;
+        }
+        .header .banner .banner-img {
+            justify-content: center;
+        }
+        .header .banner .logo-2 {
+            width: 90px;
+            height: 90px;
+            transform: translate(220px, 400px);
+        }
+        .header .banner h4 {
+            font-size: 24px;
+            line-height: 24px;
+            transform: translate(138px, 438px);
+        }
+        .feature {
+            padding: 60px 0px;
+        }
+        .feature .left-img {
+            margin: 0px 0px 20px;
+        }
+        .feature .left-img h3 {
+            padding: 0px 0px 290px;
+        }
+        .feature .right-img .up-part {
+            margin: 0px 0px 20px;
+        }
+        .feature .right-img .up-part h2 {
+            padding: 0px 0px 49px;
+        }
+        .feature .right-img .up-part-2 h2 {
+            padding: 0px 0px 69px;
+        }
+        .service {
+            padding: 30px 0px;
+        }
+        .service .title h2 {
+            font-size: 45px;
+            line-height: 55px;
+            margin: 30px 0px 0px 0px;
+        }
+        .service .first-part .btn-danger {
+            margin: 0px 0px 25px;
+        }
+        .about-part {
+            padding: 40px 0px;
+        }
+        .about-part .owl-carousel .item .title {
+            text-align: center;
+            margin: 0px 0px 10px -10px;
+        }
+        .about-part .owl-carousel .item p {
+            width: 100%;
+            text-align: justify;
+        }
+        .about-part .owl-carousel .item .about-img {
+            width: 100%;
+            padding: 160px 0px;
+        }
+        .about-part .owl-theme .owl-dots {
+            text-align: left;
+        }
+        .contact .title {
+            padding: 30px 0px 0px;
+        }
+        .contact .main-form .btn-danger {
+            margin: 10px 0px 0px;
+            padding: 5px 70px;
+        }
+        .footer .footer-img .logo img {
+            width: 200px;
+            margin-left: 80px;
+        }
+        .footer .footer-img p {
+            width: 100%;
+            margin: 30px 0px 0px;
+            text-align: justify;
+        }
+        .footer .footer-img .location-icon {
+            padding: 20px 0px 0px 30px;
+        }
+        .footer .footer-img .location-icon img {
+            margin: 25px 20px 0px 0px;
+        }
+        .footer .footer-img .email-icon {
+            padding: 20px 0px 0px 30px;
+        }
+        .footer .footer-img .email-icon img {
+            margin: 25px 20px 0px 0px;
+        }
+        .footer .footer-img .para {
+            margin: 50px 0px 0px;
+        }
+        .footer .footer-img .social-media {
+            text-align: center;
+            margin: 95px 0px 0px;
+        }
+        .footer .footer-img .social-media ul li i {
+            font-size: 18px;
+            line-height: 28px;
+            padding: 2px 8px;
+        }
+        .footer .footer-img .para {
+            text-align: center;
+            margin: 100px 0px 0px;
+        }
+        /* css */
+    }
